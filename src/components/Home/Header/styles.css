@@ -1,0 +1,29 @@
+.home-header {
+  text-align: center;
+}
+
+.home-header h1 {
+  color: #7851a9;
+}
+
+.home-header span {
+  color: #a9a9a9;
+}
+
+.style__Blog {
+  color: #2a5fff;
+  font-size: 3rem;
+  animation-name: blog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+
+@keyframes blog {
+  from {
+    color: #2a5fff;
+  }
+  to {
+    color: #0f1eebe5;
+  }
+}

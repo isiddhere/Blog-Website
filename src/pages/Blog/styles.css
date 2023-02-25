@@ -1,0 +1,53 @@
+.blog-wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blog-wrap__subcategory {
+  display: flex;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.blog-wrap__subcategory > div {
+  margin: 0.4rem;
+}
+
+.blog-wrap__cover {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.blog-wrap__description {
+  font-size: 1.4rem;
+  color: rgb(24, 24, 24);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.authorAvatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+}
+
+.authorContainer p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8d8d8d;
+}
